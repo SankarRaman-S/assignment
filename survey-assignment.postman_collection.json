@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "b868ad17-56e0-44fe-96ca-2bef58705b60",
+		"name": "survey-assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "read",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/surveys/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"surveys",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "read by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/surveys/:surveyId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"surveys",
+						":surveyId"
+					],
+					"variable": [
+						{
+							"key": "surveyId",
+							"value": "s2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search by score",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/surveys/score/:score",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"surveys",
+						"score",
+						":score"
+					],
+					"variable": [
+						{
+							"key": "score",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search by job id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/surveys/job/:jobId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"surveys",
+						"job",
+						":jobId"
+					],
+					"variable": [
+						{
+							"key": "jobId",
+							"value": "J1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/surveys/:surveyId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"surveys",
+						":surveyId"
+					],
+					"variable": [
+						{
+							"key": "surveyId",
+							"value": "s1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"s5\",\r\n    \"name\": \"divya\",\r\n    \"companyId\": \"C01\",\r\n    \"jobId\": \"J1\",\r\n    \"candidateId\": \"CA1\",\r\n    \"status\": \"completed\",\r\n    \"score\": 9,\r\n    \"questions\": [\r\n        {\r\n            \"id\": \"q1\",\r\n            \"question\": \"what is your favourite colour\",\r\n            \"answers\": [\r\n                \"blue\",\r\n                \"red\",\r\n                \"white\",\r\n                \"yellow\"\r\n            ],\r\n            \"correctAnswers\": [\r\n                \"blue\"\r\n            ],\r\n            \"userAnswers\": [\r\n                \"blue\"\r\n            ],\r\n            \"points\": {\r\n                \"blue\": 1\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"q2\",\r\n            \"question\": \"What are your favourite programming languages, specify three\",\r\n            \"answers\": [\r\n                \"java\",\r\n                \"python\",\r\n                \"react\",\r\n                \"go\",\r\n                \"scala\"\r\n            ],\r\n            \"correctAnswers\": [\r\n                \"java\",\r\n                \"python\",\r\n                \"react\"\r\n            ],\r\n            \"userAnswers\": [\r\n                \"go\",\r\n                \"scala\"\r\n            ],\r\n            \"points\": {\r\n                \"python\": 1,\r\n                \"react\": 1,\r\n                \"docker\": 0,\r\n                \"java\": 1\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"q3\",\r\n            \"question\": \"what is your favourite ide\",\r\n            \"answers\": [\r\n                \"intellij\",\r\n                \"eclipse\",\r\n                \"netbeans\",\r\n                \"sts\"\r\n            ],\r\n            \"correctAnswers\": [\r\n                \"intellij\"\r\n            ],\r\n            \"userAnswers\": [\r\n                \"eclipse\"\r\n            ],\r\n            \"points\": {\r\n                \"netbeans\": 1,\r\n                \"intellij\": 2,\r\n                \"eclipse\": 1,\r\n                \"sts\": 1\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"q4\",\r\n            \"question\": \"Select two statements which match your values\",\r\n            \"answers\": [\r\n                \"Entrepreneurial\",\r\n                \"Detail Oriented\",\r\n                \"Disruptive\",\r\n                \"Survival of the fittest\",\r\n                \"By any means necessary\"\r\n            ],\r\n            \"correctAnswers\": [\r\n                \"Disruptive\",\r\n                \"Entrepreneurial\"\r\n            ],\r\n            \"userAnswers\": [\r\n                \"Survival of the fittest\",\r\n                \"Detail Oriented\"\r\n            ],\r\n            \"points\": {\r\n                \"Disruptive\": 2,\r\n                \"Entrepreneurial\": 1\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/surveys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"surveys"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

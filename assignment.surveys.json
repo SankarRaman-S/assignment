@@ -1,0 +1,408 @@
+[{
+  "_id": "s2",
+  "name": "raman",
+  "companyId": "C01",
+  "jobId": "J1",
+  "candidateId": "CA1",
+  "status": "completed",
+  "score": 9,
+  "questions": [
+    {
+      "_id": "q1",
+      "question": "what is your favourite colour",
+      "answers": [
+        "blue",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "correctAnswers": [
+        "blue"
+      ],
+      "userAnswers": [
+        "white"
+      ],
+      "points": {
+        "blue": 1
+      }
+    },
+    {
+      "_id": "q2",
+      "question": "What are your favourite programming languages, specify three",
+      "answers": [
+        "java",
+        "python",
+        "react",
+        "go",
+        "scala"
+      ],
+      "correctAnswers": [
+        "java",
+        "python",
+        "react"
+      ],
+      "userAnswers": [
+        "go",
+        "scala"
+      ],
+      "points": {
+        "python": 1,
+        "react": 1,
+        "docker": 0,
+        "java": 1
+      }
+    },
+    {
+      "_id": "q3",
+      "question": "what is your favourite ide",
+      "answers": [
+        "intellij",
+        "eclipse",
+        "netbeans",
+        "sts"
+      ],
+      "correctAnswers": [
+        "intellij"
+      ],
+      "userAnswers": [
+        "eclipse"
+      ],
+      "points": {
+        "netbeans": 1,
+        "intellij": 2,
+        "eclipse": 1,
+        "sts": 1
+      }
+    },
+    {
+      "_id": "q4",
+      "question": "Select two statements which match your values",
+      "answers": [
+        "Entrepreneurial",
+        "Detail Oriented",
+        "Disruptive",
+        "Survival of the fittest",
+        "By any means necessary"
+      ],
+      "correctAnswers": [
+        "Disruptive",
+        "Entrepreneurial"
+      ],
+      "userAnswers": [
+        "Disruptive",
+        "Detail Oriented"
+      ],
+      "points": {
+        "Disruptive": 2,
+        "Entrepreneurial": 1
+      }
+    }
+  ],
+  "_class": "com.serand.assignment.model.Survey"
+},
+{
+  "_id": "s3",
+  "name": "aswath",
+  "companyId": "C01",
+  "jobId": "J1",
+  "candidateId": "CA1",
+  "status": "completed",
+  "score": 2,
+  "questions": [
+    {
+      "_id": "q1",
+      "question": "what is your favourite colour",
+      "answers": [
+        "blue",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "correctAnswers": [
+        "blue"
+      ],
+      "userAnswers": [
+        "white"
+      ],
+      "points": {
+        "blue": 1
+      }
+    },
+    {
+      "_id": "q2",
+      "question": "What are your favourite programming languages, specify three",
+      "answers": [
+        "java",
+        "python",
+        "react",
+        "go",
+        "scala"
+      ],
+      "correctAnswers": [
+        "java",
+        "python",
+        "react"
+      ],
+      "userAnswers": [
+        "go",
+        "scala"
+      ],
+      "points": {
+        "python": 1,
+        "react": 1,
+        "docker": 0,
+        "java": 1
+      }
+    },
+    {
+      "_id": "q3",
+      "question": "what is your favourite ide",
+      "answers": [
+        "intellij",
+        "eclipse",
+        "netbeans",
+        "sts"
+      ],
+      "correctAnswers": [
+        "intellij"
+      ],
+      "userAnswers": [
+        "eclipse"
+      ],
+      "points": {
+        "netbeans": 1,
+        "intellij": 2,
+        "eclipse": 1,
+        "sts": 1
+      }
+    },
+    {
+      "_id": "q4",
+      "question": "Select two statements which match your values",
+      "answers": [
+        "Entrepreneurial",
+        "Detail Oriented",
+        "Disruptive",
+        "Survival of the fittest",
+        "By any means necessary"
+      ],
+      "correctAnswers": [
+        "Disruptive",
+        "Entrepreneurial"
+      ],
+      "userAnswers": [
+        "Disruptive",
+        "Detail Oriented"
+      ],
+      "points": {
+        "Disruptive": 2,
+        "Entrepreneurial": 1
+      }
+    }
+  ],
+  "_class": "com.serand.assignment.model.Survey"
+},
+{
+  "_id": "s4",
+  "name": "divya",
+  "companyId": "C01",
+  "jobId": "J1",
+  "candidateId": "CA1",
+  "status": "completed",
+  "score": 0,
+  "questions": [
+    {
+      "_id": "q1",
+      "question": "what is your favourite colour",
+      "answers": [
+        "blue",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "correctAnswers": [
+        "blue"
+      ],
+      "userAnswers": [
+        "white"
+      ],
+      "points": {
+        "blue": 1
+      }
+    },
+    {
+      "_id": "q2",
+      "question": "What are your favourite programming languages, specify three",
+      "answers": [
+        "java",
+        "python",
+        "react",
+        "go",
+        "scala"
+      ],
+      "correctAnswers": [
+        "java",
+        "python",
+        "react"
+      ],
+      "userAnswers": [
+        "go",
+        "scala"
+      ],
+      "points": {
+        "python": 1,
+        "react": 1,
+        "docker": 0,
+        "java": 1
+      }
+    },
+    {
+      "_id": "q3",
+      "question": "what is your favourite ide",
+      "answers": [
+        "intellij",
+        "eclipse",
+        "netbeans",
+        "sts"
+      ],
+      "correctAnswers": [
+        "intellij"
+      ],
+      "userAnswers": [
+        "eclipse"
+      ],
+      "points": {
+        "netbeans": 1,
+        "intellij": 2,
+        "eclipse": 1,
+        "sts": 1
+      }
+    },
+    {
+      "_id": "q4",
+      "question": "Select two statements which match your values",
+      "answers": [
+        "Entrepreneurial",
+        "Detail Oriented",
+        "Disruptive",
+        "Survival of the fittest",
+        "By any means necessary"
+      ],
+      "correctAnswers": [
+        "Disruptive",
+        "Entrepreneurial"
+      ],
+      "userAnswers": [
+        "Survival of the fittest",
+        "Detail Oriented"
+      ],
+      "points": {
+        "Disruptive": 2,
+        "Entrepreneurial": 1
+      }
+    }
+  ],
+  "_class": "com.serand.assignment.model.Survey"
+},
+{
+  "_id": "s5",
+  "name": "divya",
+  "companyId": "C01",
+  "jobId": "J1",
+  "candidateId": "CA1",
+  "status": "completed",
+  "score": 1,
+  "questions": [
+    {
+      "_id": "q1",
+      "question": "what is your favourite colour",
+      "answers": [
+        "blue",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "correctAnswers": [
+        "blue"
+      ],
+      "userAnswers": [
+        "blue"
+      ],
+      "points": {
+        "blue": 1
+      }
+    },
+    {
+      "_id": "q2",
+      "question": "What are your favourite programming languages, specify three",
+      "answers": [
+        "java",
+        "python",
+        "react",
+        "go",
+        "scala"
+      ],
+      "correctAnswers": [
+        "java",
+        "python",
+        "react"
+      ],
+      "userAnswers": [
+        "go",
+        "scala"
+      ],
+      "points": {
+        "python": 1,
+        "react": 1,
+        "docker": 0,
+        "java": 1
+      }
+    },
+    {
+      "_id": "q3",
+      "question": "what is your favourite ide",
+      "answers": [
+        "intellij",
+        "eclipse",
+        "netbeans",
+        "sts"
+      ],
+      "correctAnswers": [
+        "intellij"
+      ],
+      "userAnswers": [
+        "eclipse"
+      ],
+      "points": {
+        "netbeans": 1,
+        "intellij": 2,
+        "eclipse": 1,
+        "sts": 1
+      }
+    },
+    {
+      "_id": "q4",
+      "question": "Select two statements which match your values",
+      "answers": [
+        "Entrepreneurial",
+        "Detail Oriented",
+        "Disruptive",
+        "Survival of the fittest",
+        "By any means necessary"
+      ],
+      "correctAnswers": [
+        "Disruptive",
+        "Entrepreneurial"
+      ],
+      "userAnswers": [
+        "Survival of the fittest",
+        "Detail Oriented"
+      ],
+      "points": {
+        "Disruptive": 2,
+        "Entrepreneurial": 1
+      }
+    }
+  ],
+  "_class": "com.serand.assignment.model.Survey"
+}]
